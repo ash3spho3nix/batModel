@@ -5,6 +5,8 @@ Battery Equivalent Circuit model for Kokam battery
 battery parameters, V, R, C, OCV are expressed as the non-linear function of SoC, C-rate, Temperature and number of cells.
 function parameters are found from the manufacturer's datasheet using Genetic Algorithm.
 
+check Data folder, for different characteristic curves for particular battery provided in manufacturer's datasheet.
+
 Files : 
 1. one_cycle_kokam_*** - to simulate one cycle of charge/discharge in Kokam battery.
 2. V_el_T - Equivalent electrical circuit contains R_in, R_in_2, C_in. where internal resistance and Capacitance is algebric function of SoC, C-rate and Temperature and number of cells in battery. OCV is calculated   
